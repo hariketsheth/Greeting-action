@@ -1,0 +1,19 @@
+name: 'Greeting Action'
+description: 'Greet someone when someone creates an issue or PR'
+author: 'Hariket Sheth'
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token for authentication'
+    required: true
+
+  issue_message:
+    description: 'Put your customized issue message'
+    required: true
+    
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+
+branding:
+  color: 'orange'
+  icon: 'award'
