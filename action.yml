@@ -1,4 +1,4 @@
-name: 'Greeting Action'
+name: 'Greeting on Issue / PR Action'
 description: 'Greet someone when someone creates an issue or PR'
 author: 'Hariket Sheth'
 inputs:
